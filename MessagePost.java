@@ -8,12 +8,8 @@ import java.util.ArrayList;
  * @author Michael Kölling and David J. Barnes
  * @version 0.1
  */
-public class MessagePost implements IPost {
-    private String username;  // username of the post's author
+public class MessagePost extends Post {
     private String message;   // an arbitrarily long, multi-line message
-    private long timestamp;
-    private int likes;
-    private ArrayList<String> comments;
 
     /**
      * Constructor for objects of class MessagePost.
